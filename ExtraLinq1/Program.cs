@@ -29,7 +29,7 @@ namespace ExtraLinq1
                 from student in students
                 where student.Scores[0] > 90
                 select student;
-            PrintQuery("For this first query, just grab all of the students with the score that is higher than 90 in their first test.",studentQuery);
+            PrintQuery("For this first query, just grab all of the students with the score that is higher than 90 in their first test.", studentQuery);
             var alphebeticalStudentQuery =
                 from student in studentQuery
                 orderby student.Last ascending
@@ -51,6 +51,48 @@ namespace ExtraLinq1
                 select studentGroup;
             PrintQuery("For this next query, grab the previous query and order it alphebetically by the key.", alphebeticalGroupedStudentQuery);
             Console.WriteLine("------------------------------------------------------------------------------------------------");
+            var studentQuery2 =
+                from student in students
+                let totalScore = student.Scores[0] + student.Scores[1] +
+                    student.Scores[2] + student.Scores[3]
+                where totalScore / 4 < student.Scores[0]
+                select student.Last + " " + student.First;
+            Console.WriteLine("For this query, select the full names of the student where their first score was higher than their average score.");
+            Console.WriteLine("First Last");
+            foreach (string name in studentQuery2)
+            {
+                Console.WriteLine(name);
+            }
+            Console.WriteLine("------------------------------------------------------------------------------------------------");
+            var totalScoreQuery =
+                from student in students
+                let totalScore = student.Scores[0] + student.Scores[1] +
+                    student.Scores[2] + student.Scores[3]
+                select totalScore;
+            double averageScore = totalScoreQuery.Average();
+            Console.WriteLine("For this query, get the total scores of each student and then return the average of them.");
+            Console.WriteLine("Class average score = {0}", averageScore);
+            Console.WriteLine("------------------------------------------------------------------------------------------------");
+            var GarciaQuery =
+                from student in students
+                where student.Last == "Garcia"
+                select student.First;
+            Console.WriteLine("The Garcias in the class are:");
+            foreach (string s in GarciaQuery)
+            {
+                Console.WriteLine(s);
+            }
+            Console.WriteLine("------------------------------------------------------------------------------------------------");
+            var privateScoreQuery =
+                from student in students
+                let x = student.Scores[0] + student.Scores[1] +
+                    student.Scores[2] + student.Scores[3]
+                where x > averageScore
+                select new { id = student.ID, score = x };
+            foreach (var thing in privateScoreQuery)
+            {
+                Console.WriteLine("Student ID: {0}, Score: {1}", thing.id, thing.score);
+            }
         }
         static void PrintQuery(string message, IEnumerable<Student> query)
         {

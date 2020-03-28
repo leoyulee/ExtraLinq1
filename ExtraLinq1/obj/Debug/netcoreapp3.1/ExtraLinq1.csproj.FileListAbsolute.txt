@@ -1,0 +1,11 @@
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\obj\Debug\netcoreapp3.1\ExtraLinq1.csprojAssemblyReference.cache
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\obj\Debug\netcoreapp3.1\ExtraLinq1.AssemblyInfoInputs.cache
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\obj\Debug\netcoreapp3.1\ExtraLinq1.AssemblyInfo.cs
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\bin\Debug\netcoreapp3.1\ExtraLinq1.exe
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\bin\Debug\netcoreapp3.1\ExtraLinq1.deps.json
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\bin\Debug\netcoreapp3.1\ExtraLinq1.runtimeconfig.json
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\bin\Debug\netcoreapp3.1\ExtraLinq1.runtimeconfig.dev.json
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\bin\Debug\netcoreapp3.1\ExtraLinq1.dll
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\bin\Debug\netcoreapp3.1\ExtraLinq1.pdb
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\obj\Debug\netcoreapp3.1\ExtraLinq1.dll
+C:\Users\roblo\Desktop\Dunwoody Homework\Spring 2020\Advanced Programming\Extra 1\ExtraLinq1\ExtraLinq1\obj\Debug\netcoreapp3.1\ExtraLinq1.pdb
